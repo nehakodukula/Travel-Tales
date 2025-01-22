@@ -1,0 +1,1287 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(246, 231, 246);
+  font-family: "Playpen Sans", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+nav {
+  height: 55px;
+  width: 100%;
+  left: 1150px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.138),
+    0 6px 20px 0 rgba(0, 0, 0, 0.138);
+}
+nav span {
+  font-size: 22px;
+  font-weight: 600;
+  text-shadow: 2px 2px 4px #00000045;
+  color: rgb(154, 21, 237);
+  margin: 2px;
+  padding: 2px;
+  position: absolute;
+  top: 7px;
+  left: 25px;
+}
+nav ol {
+  display: flex;
+  list-style: none;
+  margin: auto;
+}
+nav ol li {
+  margin: 0px 25px;
+}
+nav ol li a {
+  color: black;
+  text-decoration: none;
+  letter-spacing: 2px;
+  padding: 5px;
+  margin: 0px 6px;
+  position: relative;
+  left: 300px;
+  top: 15px;
+  border-radius: 5px;
+}
+nav ol li:hover a {
+  background: rgb(144, 2, 233);
+  color: white;
+  border-radius: 7px;
+}
+#b {
+  font-family: "Playpen Sans", cursive;
+  height: 35px;
+  width: 10vw;
+  border: none;
+  padding: 2px;
+  margin: 3px;
+  background: rgb(144, 2, 233);
+  color: aliceblue;
+  font-size: 18px;
+  border-radius: 5px;
+  position: relative;
+  bottom: 20px;
+  left: 1150px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.138),
+    0 6px 20px 0 rgba(0, 0, 0, 0.138);
+}
+
+#b:hover {
+  background-color: rgb(246, 231, 246);
+  color: rgb(144, 2, 233);
+  cursor: pointer;
+}
+/* part1 */
+.part1 {
+  height: 80vh;
+  width: 95vw;
+  position: relative;
+  left: 20px;
+}
+.part1 .text {
+  height: 40vh;
+  width: 70vw;
+  padding: 5px;
+  margin: 15px;
+}
+.part1 .text h1 {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 200px;
+  font-weight: 900;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 130px;
+  left: 480px;
+  background: url(./assets/1.jpg) 50% 50%;
+  background-size: contain;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  text-shadow: 2px 2px 4px #0000001c;
+}
+.part1 h2 {
+  font-size: 20px;
+  font-weight: lighter;
+  color: black;
+  position: relative;
+  left: 30px;
+  bottom: 60px;
+  margin: 2px;
+  padding: 2px;
+  letter-spacing: 2px;
+}
+
+.part1 #Button1 {
+  background-color: rgb(246, 231, 246);
+  color: rgb(144, 2, 233);
+  height: 3rem;
+  width: 10vw;
+  font-family: "Playpen Sans", cursive;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5%;
+  padding: 2px;
+  margin: 3px;
+  position: relative;
+  left: 60px;
+  bottom: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.138),
+    0 6px 20px 0 rgba(0, 0, 0, 0.138);
+}
+.part1 #Button1:hover {
+  background-color: rgb(144, 2, 233);
+  color: rgb(246, 231, 246);
+}
+.part1 #Button2 {
+  background-color: rgb(246, 231, 246);
+  color: rgb(144, 2, 233);
+  height: 3rem;
+  width: 10vw;
+  font-family: "Playpen Sans", cursive;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5%;
+  padding: 2px;
+  margin: 3px;
+  position: relative;
+  left: 60px;
+  bottom: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.138),
+    0 6px 20px 0 rgba(0, 0, 0, 0.138);
+}
+.part1 #Button2:hover {
+  background-color: rgb(144, 2, 233);
+  color: rgb(246, 231, 246);
+}
+.img {
+  height: 60vh;
+  width: 60vh;
+  position: absolute;
+  bottom: 180px;
+  left: 940px;
+  background-image: url("assets/img5.png");
+  background-size: cover;
+  filter: drop-shadow(1px 1px 20px rgb(144, 2, 233));
+}
+
+/*mode of travelling*/
+.mode {
+  display: flex;
+  height: 40px;
+  width: 30vw;
+  position: relative;
+  bottom: 20px;
+}
+.mode h5 {
+  position: relative;
+  top: 20px;
+  left: 40px;
+  padding: 10px;
+  margin: 0px 19px 0px 20px;
+  height: 40px;
+  width: 60px;
+  border: none;
+  font: 15px;
+  color: rgb(144, 2, 233);
+  font-weight: 600;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.138),
+    0 6px 20px 0 rgba(0, 0, 0, 0.138);
+}
+
+.mode h5:hover {
+  background-color: rgb(144, 2, 233);
+  color: rgb(246, 231, 246);
+}
+.bookingbar {
+  height: 15vh;
+  width: 78vw;
+  border: none;
+  display: flex;
+  position: relative;
+  bottom: 5px;
+  left: 60px;
+  background-color: whitesmoke;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.138),
+    0 6px 20px 0 rgba(0, 0, 0, 0.138);
+}
+
+div span input {
+  height: 50px;
+  width: 120px;
+  padding: 4px;
+  margin: 20px;
+  position: relative;
+  top: 11px;
+  left: 30px;
+  font-size: 15px;
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.138),
+    0 6px 20px 0 rgba(0, 0, 0, 0.138);
+}
+div span h4 {
+  position: relative;
+  bottom: 85px;
+  left: 52px;
+  color: rgb(144, 2, 233);
+  font-weight: lighter;
+  font-size: 16px;
+}
+div .Book {
+  height: 50px;
+  width: 130px;
+  padding: 4px;
+  margin: 20px;
+  position: relative;
+  top: 11px;
+  left: 30px;
+  font-family: "Playpen Sans", cursive;
+  font-size: 15px;
+  background-color: rgb(144, 2, 233);
+  color: rgb(246, 231, 246);
+  border: none;
+  border-radius: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.138),
+    0 6px 20px 0 rgba(0, 0, 0, 0.138);
+}
+div .Book:hover {
+  background-color: whitesmoke;
+  color: rgb(144, 2, 233);
+}
+/*places*/
+.places {
+  height: 50vh;
+  width: 95vw;
+  background-color: whitesmoke;
+  position: relative;
+  top: 80px;
+  left: 25px;
+}
+.places .p1 {
+  background-image: url("assets/New folder/london.jfif");
+  background-size: contain;
+  height: 46vh;
+  width: 20vw;
+  border-radius: 10px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.places .p2 {
+  background-image: url("assets/New folder/australia.jfif");
+  background-size: contain;
+  height: 22vh;
+  width: 25vw;
+  border-radius: 10px;
+  position: absolute;
+  top: 10px;
+  left: 295px;
+}
+.places .p3 {
+  background-image: url("assets/New folder/india.jfif");
+  background-size: cover;
+  height: 22vh;
+  width: 25vw;
+  border-radius: 10px;
+  position: absolute;
+  top: 165px;
+  left: 295px;
+}
+.places .p4 {
+  background-image: url("assets/New folder/brazil.jfif");
+  background-size: cover;
+  height: 22vh;
+  width: 25vw;
+  border-radius: 10px;
+  position: absolute;
+  top: 10px;
+  left: 650px;
+}
+.places .p5 {
+  background-image: url("assets/New folder/japan.jfif");
+  background-size: cover;
+  height: 22vh;
+  width: 25vw;
+  border-radius: 10px;
+  position: absolute;
+  top: 165px;
+  left: 650px;
+}
+.places .p6 {
+  background-image: url("assets/New folder/paris1.jfif");
+  background-size: cover;
+  height: 46vh;
+  width: 20vw;
+  border-radius: 10px;
+  position: absolute;
+  top: 10px;
+  left: 1005px;
+}
+
+.places .p1 h3 {
+  font-size: 30px;
+  color: white;
+  padding: 3px;
+  margin: 4px;
+}
+.places .p2 h3 {
+  font-size: 30px;
+  color: white;
+  padding: 3px;
+  margin: 4px;
+}
+.places .p3 h3 {
+  font-size: 30px;
+  color: white;
+  padding: 3px;
+  margin: 4px;
+}
+.places .p4 h3 {
+  font-size: 30px;
+  color: white;
+  padding: 3px;
+  margin: 4px;
+}
+.places .p5 h3 {
+  font-size: 30px;
+  color: white;
+  padding: 3px;
+  margin: 4px;
+}
+.places .p6 h3 {
+  font-size: 30px;
+  color: white;
+  padding: 3px;
+  margin: 4px;
+}
+.places .p1 p {
+  font-size: 15px;
+  color: white;
+  padding: 3px;
+  margin: 2px;
+}
+.places .p2 p {
+  font-size: 15px;
+  color: white;
+  padding: 3px;
+  margin: 2px;
+}
+.places .p3 p {
+  font-size: 15px;
+  color: white;
+  padding: 3px;
+  margin: 2px;
+}
+.places .p4 p {
+  font-size: 15px;
+  color: white;
+  padding: 3px;
+  margin: 2px;
+}
+.places .p5 p {
+  font-size: 15px;
+  color: white;
+  padding: 3px;
+  margin: 2px;
+}
+.places .p6 p {
+  font-size: 15px;
+  color: white;
+  padding: 3px;
+  margin: 2px;
+}
+
+.places .p1:hover {
+  background-color: rgba(0, 0, 0, 0.365);
+  opacity: 0.5;
+  cursor: pointer;
+}
+.places .p2:hover {
+  background-color: rgba(0, 0, 0, 0.365);
+  opacity: 0.5;
+  cursor: pointer;
+}
+.places .p3:hover {
+  background-color: rgba(0, 0, 0, 0.365);
+  opacity: 0.5;
+  cursor: pointer;
+}
+.places .p4:hover {
+  background-color: rgba(0, 0, 0, 0.365);
+  opacity: 0.5;
+  cursor: pointer;
+}
+.places .p5:hover {
+  background-color: rgba(0, 0, 0, 0.365);
+  opacity: 0.5;
+  cursor: pointer;
+}
+.places .p6:hover {
+  background-color: rgba(0, 0, 0, 0.365);
+  opacity: 0.5;
+  cursor: pointer;
+}
+/*types of Destination*/
+.types {
+  background-color: whitesmoke;
+  height: 23vh;
+  width: 95vw;
+  position: relative;
+  top: 130px;
+  left: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.138),
+    0 6px 20px 0 rgba(0, 0, 0, 0.138);
+}
+.types h2 {
+  font-size: 30px;
+  color: rgb(111, 22, 167);
+  padding: 3px;
+  margin: 5px;
+  text-align: center;
+}
+.types div {
+  height: 15vh;
+  width: 90vw;
+  display: flex;
+  position: relative;
+  left: 30px;
+  padding: 5px;
+  margin: 5px;
+}
+.types div h4 {
+  height: 10vh;
+  width: 28vw;
+  padding: 5px;
+  margin: 10px;
+  font-size: 20px;
+  color: rgb(111, 22, 167);
+  text-align: center;
+  justify-content: space-around;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.138),
+    0 6px 20px 0 rgba(0, 0, 0, 0.138);
+}
+.types div h4 i {
+  font-size: 2rem;
+  padding: 5px;
+  margin: 5px;
+  color: rgb(111, 22, 167);
+}
+.types div h4 i:hover {
+  color: bisque;
+}
+.types div h4:hover {
+  background-color: rgb(111, 22, 167);
+  color: bisque;
+}
+/* part2 */
+.part2 {
+  height: 70vh;
+  width: 95vw;
+  position: relative;
+  top: 150px;
+  left: 25px;
+  background-color: whitesmoke;
+}
+.part2 .img2 {
+  height: 60vh;
+  width: 30vw;
+  position: relative;
+  left: 80px;
+  top: 30px;
+  background-image: url("assets/30744-7-travel-transparent-thumb.png");
+  background-size: contain;
+  filter: drop-shadow(1px 1px 10px rgb(162, 95, 203));
+}
+.part2 .box {
+  height: 60vh;
+  width: 40vw;
+  position: relative;
+  bottom: 340px;
+  left: 650px;
+}
+.part2 .box b {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.852);
+  padding: 2px;
+  margin: 2px;
+}
+.part2 .box h5 {
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.83);
+  padding: 2px;
+  margin: 2px;
+}
+.part2 .box p {
+  font-size: 15px;
+  font-weight: lighter;
+  padding: 2px;
+  margin: 4px;
+}
+.part2 .box .button3 {
+  background-color: rgb(144, 2, 233);
+  color: rgb(246, 231, 246);
+  height: 3rem;
+  width: 15vw;
+  font-family: "Playpen Sans", cursive;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding: 2px;
+  margin: 3px;
+  position: relative;
+  top: 20px;
+  left: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.138),
+    0 6px 20px 0 rgba(0, 0, 0, 0.138);
+}
+.part2 .box .button3:hover {
+  background-color: rgb(246, 231, 246);
+  color: rgb(144, 2, 233);
+}
+/* best packages */
+.packages {
+  height: 105vh;
+  width: 95vw;
+  position: relative;
+  top: 180px;
+  left: 25px;
+  background-color: whitesmoke;
+}
+.packages p {
+  font-size: 15px;
+  padding: 2px;
+  margin: 2px;
+  position: relative;
+  left: 25px;
+  top: 20px;
+}
+.packages h6 {
+  font-size: 30px;
+  padding: 2px;
+  margin: 2px;
+  position: relative;
+  left: 25px;
+  top: 15px;
+}
+.packages .filter {
+  position: absolute;
+  left: 1000px;
+  margin-bottom: 15px;
+  font-size: 13px;
+}
+.packages .cities {
+  height: 85vh;
+  width: 93vw;
+  position: relative;
+  top: 30px;
+  left: 32px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.packages .cities .pack {
+  height: 40vh;
+  width: 20vw;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.138),
+    0 6px 20px 0 rgba(0, 0, 0, 0.138);
+}
+
+.packages .cities .pack img {
+  height: 25vh;
+  width: 20vw;
+  border-radius: 10px;
+}
+
+.packages .cities .pack .location {
+  padding: 5px;
+  font-size: 15px;
+  background-color: rgb(144, 2, 233);
+  color: rgb(246, 231, 246);
+  border: none;
+  border-radius: 15px;
+  position: relative;
+  bottom: 160px;
+  margin: 3px;
+}
+
+.packages .cities .pack .location i {
+  margin-right: 4px;
+}
+
+.packages .cities .pack .label {
+  height: 2rem;
+  width: 18vw;
+  padding: 3px;
+  font-size: 15px;
+  position: relative;
+  left: 13px;
+  bottom: 40px;
+  border-radius: 10px;
+  color: antiquewhite;
+  background-color: rgba(0, 0, 0, 0.955);
+}
+.packages .cities .pack .label span {
+  margin-left: 80px;
+}
+.packages .cities .pack h5 {
+  padding: 2px;
+  margin: 2px;
+  font-size: 16px;
+  font-weight: lighter;
+  position: relative;
+  bottom: 40px;
+}
+.packages .cities .pack .cost {
+  padding: 3px;
+  margin: 2px;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  bottom: 40px;
+}
+.packages .cities .pack .cost .cb {
+  height: 2rem;
+  width: 7vw;
+  border: none;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: lighter;
+  margin-left: 70px;
+  position: relative;
+  bottom: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.138),
+    0 6px 20px 0 rgba(0, 0, 0, 0.138);
+}
+.packages .cities .pack .cost .cb:hover {
+  background-color: rgb(144, 2, 233);
+  color: rgb(246, 231, 246);
+}
+
+/* offers */
+.offers {
+  height: 30vh;
+  width: 95vw;
+  position: relative;
+  top: 220px;
+  left: 25px;
+  background-color: whitesmoke;
+}
+
+.offers .text h1 {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 200px;
+  font-weight: 900;
+  letter-spacing: 30px;
+  text-transform: uppercase;
+  transform: translate(-50%, -50%);
+  position: relative;
+  top: 90px;
+  left: 675px;
+  background-color: rgb(246, 231, 246);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.offers h4 {
+  font-family: "Oswald", sans-serif;
+  font-size: 28px;
+  position: relative;
+  bottom: 250px;
+  text-align: center;
+  color: rgb(111, 22, 167);
+}
+.offers .icons {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  justify-content: space-evenly;
+  position: relative;
+  bottom: 240px;
+}
+.offers .icons .icon {
+  font-size: 3rem;
+  color: rgb(111, 22, 167);
+}
+.offers .icons .icon p {
+  font-size: 15px;
+  font-weight: bold;
+  position: relative;
+  right: 10px;
+}
+/* discount offers  */
+.discount {
+  background: url("assets/30550-1-travel-image.png");
+  background-size: cover;
+  height: 60vh;
+  width: 95vw;
+  position: relative;
+  top: 280px;
+  left: 25px;
+}
+.discount .layer {
+  height: 60vh;
+  width: 95vw;
+  position: relative;
+}
+.discount #text {
+  position: relative;
+  bottom: 350px;
+  margin-left: 140px;
+  height: 40vh;
+  width: 20vw;
+}
+.discount #text h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 105px;
+}
+.discount #text ol {
+  font-size: 20px;
+  font-weight: lighter;
+  text-decoration: none;
+  position: relative;
+  left: 25px;
+  bottom: 30px;
+}
+.discount #text span {
+  font-size: 30px;
+  font-weight: bolder;
+  position: relative;
+  left: 120px;
+  bottom: 70px;
+}
+.discount .img3 {
+  background: url("assets/30692-5-travel-photo-thumb.png");
+  background-size: auto;
+  height: 33vh;
+  width: 15vw;
+  position: relative;
+  bottom: 600px;
+  left: 450px;
+}
+.discount .text2 {
+  height: 40vh;
+  width: 30vw;
+  position: relative;
+  bottom: 850px;
+  left: 750px;
+  padding: 3px;
+  margin: 5px;
+}
+.discount .text2 span {
+  font-size: 30px;
+  font-weight: bolder;
+  padding: 3px;
+  margin: 13px;
+}
+.discount .text2 p {
+  font-size: 15px;
+  font-weight: lighter;
+  padding: 3px;
+  margin: 13px;
+}
+.discount .text2 .offerbutton {
+  background-color: rgb(144, 2, 233);
+  color: rgb(246, 231, 246);
+  height: 2.5rem;
+  width: 12vw;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  font-family: "Playpen Sans", cursive;
+  padding: 5px;
+  margin: 10px;
+}
+.discount .text2 .offerbutton:hover {
+  background-color: rgb(246, 231, 246);
+  color: rgb(144, 2, 233);
+}
+
+/* <!-- seasonal holiday trips --> */
+.seasons {
+  height: 215vh;
+  width: 95vw;
+  background-color: whitesmoke;
+  position: relative;
+  left: 25px;
+  top: 330px;
+}
+.seasons p {
+  padding: 2px;
+  margin: 3px;
+  font-size: 15px;
+  font-weight: 300;
+  position: relative;
+  left: 20px;
+  top: 15px;
+  color: rgb(144, 2, 233);
+}
+.seasons h2 {
+  padding: 2px;
+  margin: 3px;
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+  top: 5px;
+  left: 20px;
+  color: rgb(144, 2, 233);
+}
+/* spring  */
+.seasons .spring {
+  background: url("assets/seasons/spring.jpg");
+  background-size: cover;
+  background-color: whitesmoke;
+  height: 45vh;
+  width: 90vw;
+  position: relative;
+  top: 20px;
+  left: 30px;
+  display: grid;
+  grid-template-columns: 330px 330px 330px;
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.138),
+    0 8px 20px 0 rgba(0, 0, 0, 0.138);
+}
+.seasons .spring .springbox {
+  height: 40vh;
+  width: 20vw;
+  margin: 10px;
+  border-radius: 20px;
+  background-color: rgba(245, 245, 245, 0.812);
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.138),
+    0 6px 20px 0 rgba(0, 0, 0, 0.138);
+}
+.seasons .spring .springbox .imgs img {
+  height: 30vh;
+  width: 20vw;
+  border-radius: 20px;
+}
+.seasons .spring .springbox h6 {
+  font-size: 15px;
+  padding: 2px;
+  margin: 3px;
+}
+.seasons .spring .springbox .springbutton {
+  height: 1.5rem;
+  width: 5rem;
+  background-color: rgb(144, 2, 233);
+  color: rgb(246, 231, 246);
+  border-radius: 10px;
+  border: none;
+  font-size: 13px;
+  font-family: "Playpen Sans", cursive;
+  position: relative;
+  left: 150px;
+  bottom: 6px;
+}
+.seasons .spring .springbox .springbutton:hover {
+  background-color: rgb(246, 231, 246);
+  color: rgb(144, 2, 233);
+  border: 1px solid rgb(144, 2, 233);
+}
+.seasons .spring .springbox .rating {
+  font-size: 15px;
+  padding: auto;
+  margin: 3px;
+  position: relative;
+  bottom: 38px;
+}
+.seasons .spring .springbox .rating i {
+  color: rgb(230, 164, 12);
+}
+.seasons .spring .springtext {
+  height: 20vh;
+  width: 15vw;
+  position: relative;
+  bottom: 200px;
+  left: 1000px;
+}
+.seasons .spring .springtext h1 {
+  padding: 2px;
+  margin: 5px;
+  font-size: 40px;
+  color: rgb(15, 1, 13);
+}
+.seasons .spring .springtext h6 {
+  padding: 2px;
+  margin: 5px;
+  font-size: 15px;
+  color: rgb(15, 1, 13);
+}
+
+/* fall  */
+.seasons .fall {
+  background: url("assets/seasons/fall3.jpg");
+  background-size: cover;
+  background-color: whitesmoke;
+  height: 45vh;
+  width: 90vw;
+  position: relative;
+  top: 50px;
+  left: 30px;
+  display: grid;
+  grid-template-columns: 330px 330px 330px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.138),
+    0 6px 20px 0 rgba(0, 0, 0, 0.138);
+}
+.seasons .fall .fallbox {
+  height: 40vh;
+  width: 20vw;
+  margin: 10px;
+  border-radius: 20px;
+  background-color: rgba(245, 245, 245, 0.812);
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.138),
+    0 6px 20px 0 rgba(0, 0, 0, 0.138);
+}
+
+.seasons .fall .fallbox .imgs img {
+  height: 30vh;
+  width: 20vw;
+  border-radius: 20px;
+}
+.seasons .fall .fallbox h6 {
+  font-size: 15px;
+  padding: 2px;
+  margin: 3px;
+}
+.seasons .fall .fallbox .fallbutton {
+  height: 1.5rem;
+  width: 5rem;
+  background-color: rgb(144, 2, 233);
+  color: rgb(246, 231, 246);
+  border-radius: 10px;
+  border: none;
+  font-size: 13px;
+  font-family: "Playpen Sans", cursive;
+  position: relative;
+  left: 150px;
+  bottom: 6px;
+}
+.seasons .fall .fallbox .fallbutton:hover {
+  background-color: rgb(246, 231, 246);
+  color: rgb(144, 2, 233);
+  border: 1px solid rgb(144, 2, 233);
+}
+.seasons .fall .fallbox .rating {
+  font-size: 15px;
+  padding: auto;
+  margin: 3px;
+  position: relative;
+  bottom: 38px;
+}
+.seasons .fall .fallbox .rating i {
+  color: rgb(230, 164, 12);
+}
+.seasons .fall .falltext {
+  height: 20vh;
+  width: 15vw;
+  position: relative;
+  bottom: 230px;
+  left: 1000px;
+  color: rgb(15, 1, 13);
+}
+.seasons .fall .falltext h1 {
+  padding: 2px;
+  margin: 5px;
+  font-size: 40px;
+}
+.seasons .fall .falltext h6 {
+  padding: 2px;
+  margin: 5px;
+  font-size: 15px;
+}
+
+/* summer  */
+.seasons .summer {
+  background: url("assets/seasons/s1.webp");
+  background-size: cover;
+  background-color: whitesmoke;
+  height: 45vh;
+  width: 90vw;
+  position: relative;
+  top: 80px;
+  left: 30px;
+  display: grid;
+  grid-template-columns: 330px 330px 330px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.138),
+    0 6px 20px 0 rgba(0, 0, 0, 0.138);
+}
+.seasons .summer .summerbox {
+  height: 40vh;
+  width: 20vw;
+  margin: 10px;
+  border-radius: 20px;
+  background-color: rgba(245, 245, 245, 0.812);
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.138),
+    0 6px 20px 0 rgba(0, 0, 0, 0.138);
+}
+
+.seasons .summer .summerbox .imgs img {
+  height: 30vh;
+  width: 20vw;
+  border-radius: 20px;
+}
+.seasons .summer .summerbox h6 {
+  font-size: 15px;
+  padding: 2px;
+  margin: 3px;
+}
+.seasons .summer .summerbox .summerbutton {
+  height: 1.5rem;
+  width: 5rem;
+  background-color: rgb(144, 2, 233);
+  color: rgb(246, 231, 246);
+  border-radius: 10px;
+  border: none;
+  font-size: 13px;
+  font-family: "Playpen Sans", cursive;
+  position: relative;
+  left: 150px;
+  bottom: 6px;
+}
+.seasons .summer .summerbox .summerbutton:hover {
+  background-color: rgb(246, 231, 246);
+  color: rgb(144, 2, 233);
+  border: 1px solid rgb(144, 2, 233);
+}
+.seasons .summer .summerbox .rating {
+  font-size: 15px;
+  padding: auto;
+  margin: 3px;
+  position: relative;
+  bottom: 38px;
+}
+.seasons .summer .summerbox .rating i {
+  color: rgb(230, 164, 12);
+}
+.seasons .summer .summertext {
+  height: 20vh;
+  width: 15vw;
+  position: relative;
+  bottom: 230px;
+  left: 1000px;
+  color: rgb(15, 1, 13);
+}
+.seasons .summer .summertext h1 {
+  padding: 2px;
+  margin: 5px;
+  font-size: 40px;
+}
+.seasons .summer .summertext h6 {
+  padding: 2px;
+  margin: 5px;
+  font-size: 15px;
+}
+
+/* winter  */
+.seasons .winter {
+  background: url("assets/seasons/winter.jpg");
+  background-size: cover;
+  background-color: whitesmoke;
+  height: 45vh;
+  width: 90vw;
+  position: relative;
+  top: 110px;
+  left: 30px;
+  display: grid;
+  grid-template-columns: 330px 330px 330px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.138),
+    0 6px 20px 0 rgba(0, 0, 0, 0.138);
+}
+.seasons .winter .winterbox {
+  height: 40vh;
+  width: 20vw;
+  margin: 10px;
+  border-radius: 20px;
+  background-color: rgba(245, 245, 245, 0.812);
+  position: relative;
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.138),
+    0 8px 20px 0 rgba(0, 0, 0, 0.138);
+}
+
+.seasons .winter .winterbox .imgs img {
+  height: 30vh;
+  width: 20vw;
+  border-radius: 20px;
+}
+.seasons .winter .winterbox h6 {
+  font-size: 15px;
+  padding: 2px;
+  margin: 3px;
+}
+.seasons .winter .winterbox .winterbutton {
+  height: 1.5rem;
+  width: 5rem;
+  background-color: rgb(144, 2, 233);
+  color: rgb(246, 231, 246);
+  border-radius: 10px;
+  border: none;
+  font-size: 13px;
+  font-family: "Playpen Sans", cursive;
+  position: relative;
+  left: 150px;
+  bottom: 6px;
+}
+.seasons .winter .winterbox .winterbutton:hover {
+  background-color: rgb(246, 231, 246);
+  color: rgb(144, 2, 233);
+  border: 1px solid rgb(144, 2, 233);
+}
+.seasons .winter .winterbox .rating {
+  font-size: 15px;
+  padding: auto;
+  margin: 3px;
+  position: relative;
+  bottom: 38px;
+}
+.seasons .winter .winterbox .rating i {
+  color: rgb(230, 164, 12);
+}
+.seasons .winter .wintertext {
+  height: 20vh;
+  width: 15vw;
+  position: relative;
+  bottom: 230px;
+  left: 1000px;
+  color: rgb(15, 1, 13);
+}
+.seasons .winter .wintertext h1 {
+  padding: 2px;
+  margin: 5px;
+  font-size: 40px;
+}
+.seasons .winter .wintertext h6 {
+  padding: 2px;
+  margin: 5px;
+  font-size: 15px;
+}
+
+/* gallery */
+.gallery {
+  height: 60vh;
+  width: 95vw;
+  position: relative;
+  top: 370px;
+  left: 25px;
+  background-color: whitesmoke;
+}
+.gallery .gtext {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.gallery .gtext span {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 5px;
+  color: rgb(111, 22, 167);
+}
+.gallery .gtext h4 {
+  font-size: 20px;
+  margin: 5px;
+}
+.gallery .block {
+  height: 43vh;
+  width: 92vw;
+  position: relative;
+  left: 20px;
+  top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.138),
+    0 8px 20px 0 rgba(0, 0, 0, 0.138);
+}
+.gallery .block .pics {
+  height: 40vh;
+  width: 14vw;
+  border-radius: 10px;
+  margin: 8px;
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.138),
+    0 8px 20px 0 rgba(0, 0, 0, 0.138);
+}
+.gallery .block .pics img {
+  height: 40vh;
+  width: 14vw;
+  border-radius: 10px;
+  background-size: contain;
+}
+.gallery .block #addpic {
+  border: 1px solid rgba(0, 0, 0, 0.671);
+}
+.gallery .block #addpic i {
+  padding: 5px;
+  font-size: 40px;
+  font-weight: bolder;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: rgba(0, 0, 0, 0.767);
+  position: relative;
+  top: 100px;
+  left: 75px;
+}
+.gallery .block #addpic span {
+  font-size: 15px;
+  position: relative;
+  top: 135px;
+  left: 25px;
+  color: black;
+}
+
+/* footer  */
+footer .footer {
+  background-color: rgb(111, 22, 167);
+  color: whitesmoke;
+  height: 45vh;
+  width: 100%;
+  position: relative;
+  top: 400px;
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr 4fr;
+}
+footer .footer .f1 {
+  margin: 30px;
+}
+footer .footer .f1 span {
+  font-size: 20px;
+  font-weight: lighter;
+}
+footer .footer .f1 ol {
+  font-size: 15px;
+  font-weight: lighter;
+  list-style-type: none;
+  margin: 5px;
+}
+footer .footer #Payment .payimg img {
+  height: 35px;
+  width: 45px;
+  margin: 5px;
+  background-size: cover;
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.138),
+    0 8px 20px 0 rgba(0, 0, 0, 0.138);
+}
+footer .footer #Payment .partners img {
+  height: 35px;
+  width: 55px;
+  margin: 5px;
+  background-size: cover;
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.138),
+    0 8px 20px 0 rgba(0, 0, 0, 0.138);
+}
